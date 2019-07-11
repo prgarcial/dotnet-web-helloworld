@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -27,7 +27,7 @@ namespace web
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello again!");
+                await context.Response.WriteAsync("Hello there!");
             });
         }
     }
